@@ -5,7 +5,9 @@ RSpec.describe MlbRb do
     expect(MlbRb::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "has a healthcheck method that returns a string" do
+    healthcheck = MlbRb.healthcheck
+
+    expect(healthcheck).to eq("Yup, everything is fine")
   end
 end
