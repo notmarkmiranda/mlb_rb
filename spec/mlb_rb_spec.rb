@@ -30,8 +30,7 @@ RSpec.describe MlbRb do
       expect(first_game.away_team.name).to eq("Pittsburgh Pirates")
       expect(first_game.home_score).to eq(6)
       expect(first_game.away_score).to eq(6)
-      expect(first_game.game_date).to eq(Date.new(2022, 03, 23))
-      require 'pry'; binding.pry
+      expect(first_game.game_date).to eq(Date.new(2022, 0o3, 23))
     end
   end
 end
