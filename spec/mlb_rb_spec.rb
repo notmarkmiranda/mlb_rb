@@ -20,7 +20,7 @@ RSpec.describe MlbRb do
         .with("statsapi.mlb.com", "/api/v1/schedule/games/?sportId=1&date=03/23/2022")
         .and_return(file)
 
-      games = MlbRb.games_for_date(year: 2022, month: 3, day: 23)
+      games = MlbRb.games_for_date({date: {year: 2022, month: 3, day: 23}})
 
       expect(games.length).to eq(14)
 
