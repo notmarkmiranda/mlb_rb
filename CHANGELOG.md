@@ -1,8 +1,13 @@
 ## [Unreleased]
 
-## [0.0.1] - 2022-03-25
+## [0.0.3] - 2022-03-26
 
-- Add endpoint to retrieve games for one date
+- Add method to retrieve games for date range
+
+## [0.0.2] - 2022-03-25
+
+- Add method to retrieve games for one date
+
 ## [0.0.1] - 2022-03-24
 
 - Add healthcheck that returns a string
