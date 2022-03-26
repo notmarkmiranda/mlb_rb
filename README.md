@@ -25,8 +25,8 @@ Or install it yourself as:
 There are currently only two methods available:
 
 ```ruby
-MlbRb.games_for_date({ date: { year: 2022, month: 3, day: 24 } })
-MlbRb.games_for_date_range(
+MlbRb::Games.games_for_date({ date: { year: 2022, month: 3, day: 24 } })
+MlbRb::Games.games_for_date_range(
   { 
     start_date: { year: 2022, month: 3, day: 23 }, 
     end_date: { year: 2022, month: 3, day: 24 }
