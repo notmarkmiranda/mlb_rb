@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.4] - 2022-03-26
+
+- Clean up main class and extract games methods to MlbRb::Games class
+
 ## [0.0.3] - 2022-03-26
 
 - Add method to retrieve games for date range

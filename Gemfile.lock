@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mlb_rb (0.0.2)
+    mlb_rb (0.0.4)
 
 GEM
   remote: https://rubygems.org/
