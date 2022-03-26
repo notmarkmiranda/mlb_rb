@@ -3,7 +3,6 @@
 require "./lib/mlb_rb/version"
 require "./lib/mlb_rb/client"
 require "./lib/mlb_rb/game"
-require "json"
 
 module MlbRb
   class Error < StandardError; end
@@ -19,9 +18,7 @@ module MlbRb
       date = options[:date]
       raise DateError unless validate_date(date)
 
-      games_json = client.get_games_for_date(format_date(date))
-      games = JSON.parse(games_json)["dates"].first["games"]
-      games.map { |game| Game.new(game) }
+      client.get_games_for_date(format_date(date))
     end
 
     def games_for_date_range(options)
@@ -30,10 +27,7 @@ module MlbRb
       [start_date, end_date].each do |date|
         raise DateError unless validate_date(date)
       end
-      games_json = client.get_games_for_range(format_date(start_date), format_date(end_date))
-      JSON.parse(games_json)["dates"].map do |date_hash|
-        date_hash["games"].map { |game| Game.new(game) }
-      end.flatten
+      client.get_games_for_range(format_date(start_date), format_date(end_date))
     end
 
     private
@@ -43,8 +37,6 @@ module MlbRb
     end
 
     def validate_date(date)
-      return unless date
-
       date.map do |key, value|
         valid_number_for_date(value, key)
       end.all?

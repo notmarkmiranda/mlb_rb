@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mlb_rb`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+I started writing this gem because I wanted to extract a piece of a rails app that I had previously used to a gem, but the API changed from the first time I used it, so I had to rewrite it anyway, so instead of starting a new rails app immediately. I figured I could kill two birds and learn to write a gem and use the new MLB API.
 
 ## Installation
 
@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+There are currently only two methods available:
+
+```ruby
+MlbRb.games_for_date({ date: { year: 2022, month: 3, day: 24 } })
+MlbRb.games_for_date_range(
+  { 
+    start_date: { year: 2022, month: 3, day: 23 }, 
+    end_date: { year: 2022, month: 3, day: 24 }
+  }
+)
+```
 
 ## Development
 
