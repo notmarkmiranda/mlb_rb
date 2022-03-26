@@ -1,15 +1,32 @@
 # frozen_string_literal: true
 
 require "net/http"
+require "json"
 
 module MlbRb
   class Client
-    def self.get_games_for_date(date)
-      Net::HTTP.get("statsapi.mlb.com", "/api/v1/schedule/games/?sportId=1&date=#{date}")
+    attr_reader :json_response
+
+    def initialize(json_response)
+      @json_response = json_response
     end
 
-    def self.get_games_for_range(start_date, end_date)
-      Net::HTTP.get("statsapi.mlb.com", "/api/v1/schedule/games/?sportId=1&startDate=#{start_date}&endDate=#{end_date}")
+    def parse_games_by_date_response
+      JSON.parse(json_response)["dates"].map do |date_hash|
+        date_hash["games"].map { |game| Game.new(game) }
+      end.flatten
+    end
+
+    class << self
+      def get_games_for_date(date)
+        json_response = Net::HTTP.get("statsapi.mlb.com", "/api/v1/schedule/games/?sportId=1&date=#{date}")
+        new(json_response).parse_games_by_date_response
+      end
+
+      def get_games_for_range(start_date, end_date)
+        json_response = Net::HTTP.get("statsapi.mlb.com", "/api/v1/schedule/games/?sportId=1&startDate=#{start_date}&endDate=#{end_date}")
+        new(json_response).parse_games_by_date_response
+      end
     end
   end
 end
