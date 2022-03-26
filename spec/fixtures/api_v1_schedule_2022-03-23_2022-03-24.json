@@ -1,0 +1,2152 @@
+{
+  "copyright": "Copyright 2022 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "totalItems": 28,
+  "totalEvents": 0,
+  "totalGames": 28,
+  "totalGamesInProgress": 0,
+  "dates": [
+    {
+      "date": "2022-03-23",
+      "totalItems": 14,
+      "totalEvents": 0,
+      "totalGames": 14,
+      "totalGamesInProgress": 0,
+      "games": [
+        {
+          "gamePk": 706964,
+          "link": "/api/v1.1/game/706964/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T17:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "FT",
+            "startTimeTBD": false,
+            "reason": "Tied",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 6,
+              "team": {
+                "id": 134,
+                "name": "Pittsburgh Pirates",
+                "link": "/api/v1/teams/134"
+              },
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 3,
+                "pct": ".250"
+              },
+              "score": 6,
+              "team": {
+                "id": 116,
+                "name": "Detroit Tigers",
+                "link": "/api/v1/teams/116"
+              },
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 2511,
+            "name": "Publix Field at Joker Marchant Stadium",
+            "link": "/api/v1/venues/2511"
+          },
+          "content": {
+            "link": "/api/v1/game/706964/content"
+          },
+          "isTie": true,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706964-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706955,
+          "link": "/api/v1.1/game/706955/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T17:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 1,
+                "pct": ".800"
+              },
+              "score": 3,
+              "team": {
+                "id": 138,
+                "name": "St. Louis Cardinals",
+                "link": "/api/v1/teams/138"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 5
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 4,
+                "pct": ".200"
+              },
+              "score": 10,
+              "team": {
+                "id": 117,
+                "name": "Houston Astros",
+                "link": "/api/v1/teams/117"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 5
+            }
+          },
+          "venue": {
+            "id": 5000,
+            "name": "The Ballpark of the Palm Beaches",
+            "link": "/api/v1/venues/5000"
+          },
+          "content": {
+            "link": "/api/v1/game/706955/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706955-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 707018,
+          "link": "/api/v1.1/game/707018/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T17:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 5,
+                "pct": ".286"
+              },
+              "score": 10,
+              "team": {
+                "id": 142,
+                "name": "Minnesota Twins",
+                "link": "/api/v1/teams/142"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 6,
+                "losses": 1,
+                "pct": ".857"
+              },
+              "score": 4,
+              "team": {
+                "id": 111,
+                "name": "Boston Red Sox",
+                "link": "/api/v1/teams/111"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 4309,
+            "name": "JetBlue Park",
+            "link": "/api/v1/venues/4309"
+          },
+          "content": {
+            "link": "/api/v1/game/707018/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-707018-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706867,
+          "link": "/api/v1.1/game/706867/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T17:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "pct": ".667"
+              },
+              "score": 7,
+              "team": {
+                "id": 141,
+                "name": "Toronto Blue Jays",
+                "link": "/api/v1/teams/141"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 8,
+              "team": {
+                "id": 143,
+                "name": "Philadelphia Phillies",
+                "link": "/api/v1/teams/143"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 2700,
+            "name": "BayCare Ballpark",
+            "link": "/api/v1/venues/2700"
+          },
+          "content": {
+            "link": "/api/v1/game/706867/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706867-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 707039,
+          "link": "/api/v1.1/game/707039/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T17:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "FT",
+            "startTimeTBD": false,
+            "reason": "Tied",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 0,
+                "losses": 4,
+                "pct": ".000"
+              },
+              "score": 7,
+              "team": {
+                "id": 139,
+                "name": "Tampa Bay Rays",
+                "link": "/api/v1/teams/139"
+              },
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 1,
+                "pct": ".750"
+              },
+              "score": 7,
+              "team": {
+                "id": 144,
+                "name": "Atlanta Braves",
+                "link": "/api/v1/teams/144"
+              },
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 5380,
+            "name": "CoolToday Park",
+            "link": "/api/v1/venues/5380"
+          },
+          "content": {
+            "link": "/api/v1/game/707039/content"
+          },
+          "isTie": true,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-707039-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706924,
+          "link": "/api/v1.1/game/706924/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T17:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 4,
+                "pct": ".200"
+              },
+              "score": 2,
+              "team": {
+                "id": 120,
+                "name": "Washington Nationals",
+                "link": "/api/v1/teams/120"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 5
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 1,
+                "pct": ".800"
+              },
+              "score": 3,
+              "team": {
+                "id": 146,
+                "name": "Miami Marlins",
+                "link": "/api/v1/teams/146"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 5
+            }
+          },
+          "venue": {
+            "id": 2520,
+            "name": "Roger Dean Chevrolet Stadium",
+            "link": "/api/v1/venues/2520"
+          },
+          "content": {
+            "link": "/api/v1/game/706924/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706924-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706933,
+          "link": "/api/v1.1/game/706933/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T20:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 2,
+              "team": {
+                "id": 114,
+                "name": "Cleveland Guardians",
+                "link": "/api/v1/teams/114"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 3,
+                "pct": ".250"
+              },
+              "score": 6,
+              "team": {
+                "id": 119,
+                "name": "Los Angeles Dodgers",
+                "link": "/api/v1/teams/119"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 3809,
+            "name": "Camelback Ranch",
+            "link": "/api/v1/venues/3809"
+          },
+          "content": {
+            "link": "/api/v1/game/706933/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706933-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 707012,
+          "link": "/api/v1.1/game/707012/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T20:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 3,
+                "pct": ".250"
+              },
+              "score": 4,
+              "team": {
+                "id": 133,
+                "name": "Oakland Athletics",
+                "link": "/api/v1/teams/133"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 5
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "pct": ".667"
+              },
+              "score": 5,
+              "team": {
+                "id": 112,
+                "name": "Chicago Cubs",
+                "link": "/api/v1/teams/112"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 27
+            }
+          },
+          "venue": {
+            "id": 4629,
+            "name": "Sloan Park",
+            "link": "/api/v1/venues/4629"
+          },
+          "content": {
+            "link": "/api/v1/game/707012/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-707012-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706847,
+          "link": "/api/v1.1/game/706847/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T20:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 5,
+                "pct": ".286"
+              },
+              "score": 5,
+              "team": {
+                "id": 109,
+                "name": "Arizona Diamondbacks",
+                "link": "/api/v1/teams/109"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 25
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 4,
+                "pct": ".200"
+              },
+              "score": 3,
+              "team": {
+                "id": 137,
+                "name": "San Francisco Giants",
+                "link": "/api/v1/teams/137"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 5
+            }
+          },
+          "venue": {
+            "id": 2532,
+            "name": "Scottsdale Stadium",
+            "link": "/api/v1/venues/2532"
+          },
+          "content": {
+            "link": "/api/v1/game/706847/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706847-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706807,
+          "link": "/api/v1.1/game/706807/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T20:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 5,
+                "losses": 2,
+                "pct": ".714"
+              },
+              "score": 5,
+              "team": {
+                "id": 145,
+                "name": "Chicago White Sox",
+                "link": "/api/v1/teams/145"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 23
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 1,
+                "pct": ".750"
+              },
+              "score": 14,
+              "team": {
+                "id": 140,
+                "name": "Texas Rangers",
+                "link": "/api/v1/teams/140"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 5
+            }
+          },
+          "venue": {
+            "id": 2603,
+            "name": "Surprise Stadium",
+            "link": "/api/v1/venues/2603"
+          },
+          "content": {
+            "link": "/api/v1/game/706807/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706807-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706971,
+          "link": "/api/v1.1/game/706971/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T20:10:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 0,
+                "pct": "1.000"
+              },
+              "score": 8,
+              "team": {
+                "id": 118,
+                "name": "Kansas City Royals",
+                "link": "/api/v1/teams/118"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 5
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 4,
+                "pct": ".429"
+              },
+              "score": 4,
+              "team": {
+                "id": 115,
+                "name": "Colorado Rockies",
+                "link": "/api/v1/teams/115"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 25
+            }
+          },
+          "venue": {
+            "id": 4249,
+            "name": "Salt River Fields at Talking Stick",
+            "link": "/api/v1/venues/4249"
+          },
+          "content": {
+            "link": "/api/v1/game/706971/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706971-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706848,
+          "link": "/api/v1.1/game/706848/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T20:10:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 3,
+                "pct": ".500"
+              },
+              "score": 0,
+              "team": {
+                "id": 108,
+                "name": "Los Angeles Angels",
+                "link": "/api/v1/teams/108"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 4,
+                "pct": ".333"
+              },
+              "score": 3,
+              "team": {
+                "id": 135,
+                "name": "San Diego Padres",
+                "link": "/api/v1/teams/135"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 2530,
+            "name": "Peoria Stadium",
+            "link": "/api/v1/venues/2530"
+          },
+          "content": {
+            "link": "/api/v1/game/706848/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706848-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706890,
+          "link": "/api/v1.1/game/706890/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-23T22:35:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 3,
+                "pct": ".400"
+              },
+              "score": 1,
+              "team": {
+                "id": 110,
+                "name": "Baltimore Orioles",
+                "link": "/api/v1/teams/110"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 3,
+                "pct": ".400"
+              },
+              "score": 7,
+              "team": {
+                "id": 147,
+                "name": "New York Yankees",
+                "link": "/api/v1/teams/147"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 2523,
+            "name": "George M. Steinbrenner Field",
+            "link": "/api/v1/venues/2523"
+          },
+          "content": {
+            "link": "/api/v1/game/706890/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706890-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706994,
+          "link": "/api/v1.1/game/706994/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T01:05:00Z",
+          "officialDate": "2022-03-23",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 8,
+              "team": {
+                "id": 158,
+                "name": "Milwaukee Brewers",
+                "link": "/api/v1/teams/158"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "pct": ".667"
+              },
+              "score": 12,
+              "team": {
+                "id": 113,
+                "name": "Cincinnati Reds",
+                "link": "/api/v1/teams/113"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 3834,
+            "name": "Goodyear Ballpark",
+            "link": "/api/v1/venues/3834"
+          },
+          "content": {
+            "link": "/api/v1/game/706994/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706994-2022-03-23",
+          "seasonDisplay": "2022",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        }
+      ],
+      "events": []
+    },
+    {
+      "date": "2022-03-24",
+      "totalItems": 14,
+      "totalEvents": 0,
+      "totalGames": 14,
+      "totalGamesInProgress": 0,
+      "games": [
+        {
+          "gamePk": 706904,
+          "link": "/api/v1.1/game/706904/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T17:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 0,
+                "losses": 5,
+                "pct": ".000"
+              },
+              "score": 1,
+              "team": {
+                "id": 139,
+                "name": "Tampa Bay Rays",
+                "link": "/api/v1/teams/139"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 5,
+                "pct": ".375"
+              },
+              "score": 7,
+              "team": {
+                "id": 142,
+                "name": "Minnesota Twins",
+                "link": "/api/v1/teams/142"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 8
+            }
+          },
+          "venue": {
+            "id": 2862,
+            "name": "Hammond Stadium",
+            "link": "/api/v1/venues/2862"
+          },
+          "content": {
+            "link": "/api/v1/game/706904/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706904-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706857,
+          "link": "/api/v1.1/game/706857/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T17:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Completed Early",
+            "statusCode": "FR",
+            "startTimeTBD": false,
+            "reason": "Rain",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 3,
+              "team": {
+                "id": 143,
+                "name": "Philadelphia Phillies",
+                "link": "/api/v1/teams/143"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 3,
+              "team": {
+                "id": 134,
+                "name": "Pittsburgh Pirates",
+                "link": "/api/v1/teams/134"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 2526,
+            "name": "LECOM Park",
+            "link": "/api/v1/venues/2526"
+          },
+          "content": {
+            "link": "/api/v1/game/706857/content"
+          },
+          "isTie": true,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706857-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706965,
+          "link": "/api/v1.1/game/706965/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T17:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Completed Early",
+            "statusCode": "FR",
+            "startTimeTBD": false,
+            "reason": "Rain",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 4,
+                "pct": ".333"
+              },
+              "score": 3,
+              "team": {
+                "id": 147,
+                "name": "New York Yankees",
+                "link": "/api/v1/teams/147"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 3,
+                "pct": ".400"
+              },
+              "score": 5,
+              "team": {
+                "id": 116,
+                "name": "Detroit Tigers",
+                "link": "/api/v1/teams/116"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 2511,
+            "name": "Publix Field at Joker Marchant Stadium",
+            "link": "/api/v1/venues/2511"
+          },
+          "content": {
+            "link": "/api/v1/game/706965/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706965-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706949,
+          "link": "/api/v1.1/game/706949/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 3,
+                "pct": ".571"
+              },
+              "score": 4,
+              "team": {
+                "id": 113,
+                "name": "Cincinnati Reds",
+                "link": "/api/v1/teams/113"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 5,
+                "losses": 0,
+                "pct": "1.000"
+              },
+              "score": 5,
+              "team": {
+                "id": 118,
+                "name": "Kansas City Royals",
+                "link": "/api/v1/teams/118"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 2603,
+            "name": "Surprise Stadium",
+            "link": "/api/v1/venues/2603"
+          },
+          "content": {
+            "link": "/api/v1/game/706949/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706949-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706979,
+          "link": "/api/v1.1/game/706979/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 3,
+                "pct": ".400"
+              },
+              "score": 3,
+              "team": {
+                "id": 136,
+                "name": "Seattle Mariners",
+                "link": "/api/v1/teams/136"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 3,
+                "pct": ".500"
+              },
+              "score": 2,
+              "team": {
+                "id": 114,
+                "name": "Cleveland Guardians",
+                "link": "/api/v1/teams/114"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 3834,
+            "name": "Goodyear Ballpark",
+            "link": "/api/v1/venues/3834"
+          },
+          "content": {
+            "link": "/api/v1/game/706979/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706979-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706879,
+          "link": "/api/v1.1/game/706879/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 1,
+                "pct": ".800"
+              },
+              "score": 5,
+              "team": {
+                "id": 140,
+                "name": "Texas Rangers",
+                "link": "/api/v1/teams/140"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 4,
+                "pct": ".200"
+              },
+              "score": 3,
+              "team": {
+                "id": 133,
+                "name": "Oakland Athletics",
+                "link": "/api/v1/teams/133"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 2507,
+            "name": "Hohokam Stadium",
+            "link": "/api/v1/venues/2507"
+          },
+          "content": {
+            "link": "/api/v1/game/706879/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706879-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 707001,
+          "link": "/api/v1.1/game/707001/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 4,
+                "pct": ".333"
+              },
+              "score": 9,
+              "team": {
+                "id": 137,
+                "name": "San Francisco Giants",
+                "link": "/api/v1/teams/137"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 5,
+                "losses": 3,
+                "pct": ".625"
+              },
+              "score": 6,
+              "team": {
+                "id": 145,
+                "name": "Chicago White Sox",
+                "link": "/api/v1/teams/145"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 24
+            }
+          },
+          "venue": {
+            "id": 3809,
+            "name": "Camelback Ranch",
+            "link": "/api/v1/venues/3809"
+          },
+          "content": {
+            "link": "/api/v1/game/707001/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-707001-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706940,
+          "link": "/api/v1.1/game/706940/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:10:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 3,
+                "pct": ".571"
+              },
+              "score": 4,
+              "team": {
+                "id": 112,
+                "name": "Chicago Cubs",
+                "link": "/api/v1/teams/112"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 28
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 3,
+                "pct": ".571"
+              },
+              "score": 5,
+              "team": {
+                "id": 108,
+                "name": "Los Angeles Angels",
+                "link": "/api/v1/teams/108"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 2500,
+            "name": "Tempe Diablo Stadium",
+            "link": "/api/v1/venues/2500"
+          },
+          "content": {
+            "link": "/api/v1/game/706940/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706940-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706972,
+          "link": "/api/v1.1/game/706972/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:10:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "FT",
+            "startTimeTBD": false,
+            "reason": "Tied",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 3,
+                "pct": ".250"
+              },
+              "score": 6,
+              "team": {
+                "id": 119,
+                "name": "Los Angeles Dodgers",
+                "link": "/api/v1/teams/119"
+              },
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 4,
+                "pct": ".429"
+              },
+              "score": 6,
+              "team": {
+                "id": 115,
+                "name": "Colorado Rockies",
+                "link": "/api/v1/teams/115"
+              },
+              "splitSquad": false,
+              "seriesNumber": 26
+            }
+          },
+          "venue": {
+            "id": 4249,
+            "name": "Salt River Fields at Talking Stick",
+            "link": "/api/v1/venues/4249"
+          },
+          "content": {
+            "link": "/api/v1/game/706972/content"
+          },
+          "isTie": true,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706972-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706912,
+          "link": "/api/v1.1/game/706912/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T20:10:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 5,
+                "pct": ".375"
+              },
+              "score": 10,
+              "team": {
+                "id": 109,
+                "name": "Arizona Diamondbacks",
+                "link": "/api/v1/teams/109"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 26
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 3,
+                "pct": ".500"
+              },
+              "score": 3,
+              "team": {
+                "id": 158,
+                "name": "Milwaukee Brewers",
+                "link": "/api/v1/teams/158"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 2518,
+            "name": "American Family Fields of Phoenix",
+            "link": "/api/v1/venues/2518"
+          },
+          "content": {
+            "link": "/api/v1/game/706912/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706912-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 707030,
+          "link": "/api/v1.1/game/707030/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T22:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 6,
+                "losses": 2,
+                "pct": ".750"
+              },
+              "score": 5,
+              "team": {
+                "id": 111,
+                "name": "Boston Red Sox",
+                "link": "/api/v1/teams/111"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 8
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 3,
+                "pct": ".500"
+              },
+              "score": 8,
+              "team": {
+                "id": 110,
+                "name": "Baltimore Orioles",
+                "link": "/api/v1/teams/110"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 2508,
+            "name": "Ed Smith Stadium",
+            "link": "/api/v1/venues/2508"
+          },
+          "content": {
+            "link": "/api/v1/game/707030/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-707030-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706789,
+          "link": "/api/v1.1/game/706789/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T22:05:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 4,
+                "pct": ".333"
+              },
+              "score": 10,
+              "team": {
+                "id": 117,
+                "name": "Houston Astros",
+                "link": "/api/v1/teams/117"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 1,
+                "losses": 5,
+                "pct": ".167"
+              },
+              "score": 8,
+              "team": {
+                "id": 120,
+                "name": "Washington Nationals",
+                "link": "/api/v1/teams/120"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            }
+          },
+          "venue": {
+            "id": 5000,
+            "name": "The Ballpark of the Palm Beaches",
+            "link": "/api/v1/venues/5000"
+          },
+          "content": {
+            "link": "/api/v1/game/706789/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "N",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706789-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706896,
+          "link": "/api/v1.1/game/706896/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T22:10:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "pct": ".667"
+              },
+              "score": 3,
+              "team": {
+                "id": 146,
+                "name": "Miami Marlins",
+                "link": "/api/v1/teams/146"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 6
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 2,
+                "pct": ".600"
+              },
+              "score": 9,
+              "team": {
+                "id": 121,
+                "name": "New York Mets",
+                "link": "/api/v1/teams/121"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 5
+            }
+          },
+          "venue": {
+            "id": 2856,
+            "name": "Clover Park",
+            "link": "/api/v1/venues/2856"
+          },
+          "content": {
+            "link": "/api/v1/game/706896/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706896-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "night",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        },
+        {
+          "gamePk": 706798,
+          "link": "/api/v1.1/game/706798/feed/live",
+          "gameType": "S",
+          "season": "2022",
+          "gameDate": "2022-03-24T17:07:00Z",
+          "officialDate": "2022-03-24",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "D",
+            "detailedState": "Postponed",
+            "statusCode": "DR",
+            "startTimeTBD": false,
+            "reason": "Rain",
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 3,
+                "losses": 1,
+                "pct": ".750"
+              },
+              "team": {
+                "id": 144,
+                "name": "Atlanta Braves",
+                "link": "/api/v1/teams/144"
+              },
+              "splitSquad": false,
+              "seriesNumber": 7
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "pct": ".667"
+              },
+              "team": {
+                "id": 141,
+                "name": "Toronto Blue Jays",
+                "link": "/api/v1/teams/141"
+              },
+              "splitSquad": false,
+              "seriesNumber": 7
+            }
+          },
+          "venue": {
+            "id": 2536,
+            "name": "TD Ballpark",
+            "link": "/api/v1/venues/2536"
+          },
+          "content": {
+            "link": "/api/v1/game/706798/content"
+          },
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "E",
+          "tiebreaker": "N",
+          "calendarEventID": "14-706798-2022-03-24",
+          "seasonDisplay": "2022",
+          "dayNight": "day",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 1,
+          "seriesGameNumber": 1,
+          "seriesDescription": "Spring Training",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        }
+      ],
+      "events": []
+    }
+  ]
+}

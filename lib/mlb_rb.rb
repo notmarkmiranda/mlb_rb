@@ -19,13 +19,28 @@ module MlbRb
       date = options[:date]
       raise DateError unless validate_date(date)
 
-      formatted_date = "#{"%02d" % date[:month]}/#{"%02d" % date[:day]}/#{date[:year]}"
-      games_json = client.get_games_for_date(formatted_date)
+      games_json = client.get_games_for_date(format_date(date))
       games = JSON.parse(games_json)["dates"].first["games"]
       games.map { |game| Game.new(game) }
     end
 
+    def games_for_date_range(options)
+      start_date = options[:start_date]
+      end_date = options[:end_date]
+      [start_date, end_date].each do |date|
+        raise DateError unless validate_date(date)
+      end
+      games_json = client.get_games_for_range(format_date(start_date), format_date(end_date))
+      JSON.parse(games_json)["dates"].map do |date_hash|
+        date_hash["games"].map { |game| Game.new(game) }
+      end.flatten
+    end
+
     private
+
+    def format_date(date)
+      "#{"%02d" % date[:month]}/#{"%02d" % date[:day]}/#{date[:year]}"
+    end
 
     def validate_date(date)
       return unless date

@@ -20,5 +20,21 @@ module MlbRb
       @away_score = game_hash["teams"]["away"]["score"]
       @game_date = Date.parse(game_hash["gameDate"])
     end
+
+    def home_team_name
+      home_team.name
+    end
+
+    def home_team_id
+      home_team.id
+    end
+
+    def away_team_name
+      away_team.name
+    end
+
+    def away_team_id
+      away_team.id
+    end
   end
 end
