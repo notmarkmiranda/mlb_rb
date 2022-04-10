@@ -13,8 +13,11 @@ module MlbRb
 
     def parse_games_by_date_response
       JSON.parse(json_response)["dates"].map do |date_hash|
-        date_hash["games"].map { |game| Game.new(game) }
-      end.flatten
+        date_hash["games"].map do |game|
+          final_state = game["status"]["detailedState"] == "Final"
+          Game.new(game) if final_state
+        end
+      end.flatten.compact
     end
 
     class << self

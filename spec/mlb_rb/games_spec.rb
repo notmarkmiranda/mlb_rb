@@ -40,15 +40,15 @@ RSpec.describe MlbRb::Games do
         }
       )
 
-      expect(games.length).to eq(28)
+      expect(games.length).to eq(25)
 
       last_game = games.last
-      expect(last_game.game_pk).to eq(706798)
-      expect(last_game.home_team.name).to eq("Toronto Blue Jays")
-      expect(last_game.away_team.name).to eq("Atlanta Braves")
+      expect(last_game.game_pk).to eq(706896)
+      expect(last_game.home_team.name).to eq("New York Mets")
+      expect(last_game.away_team.name).to eq("Miami Marlins")
 
-      expect(last_game.home_score).to eq(nil)
-      expect(last_game.away_score).to eq(nil)
+      expect(last_game.home_score).to eq(9)
+      expect(last_game.away_score).to eq(3)
       expect(last_game.game_date).to eq(Date.new(2022, 0o3, 24))
     end
   end
