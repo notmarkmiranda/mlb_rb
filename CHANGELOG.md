@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.6] - 2022-04-26
+
+- Fix gemspec spec.files
+
 ## [0.0.5] - 2022-04-09
 
 - Change to only pull games that are final
