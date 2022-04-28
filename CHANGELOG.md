@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.7] - 2022-04-27
+
+- Trying to fix things
+
 ## [0.0.6] - 2022-04-26
 
 - Fix gemspec spec.files
