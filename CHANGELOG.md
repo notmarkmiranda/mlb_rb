@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.8] - 2022-04-27
+
+- Change require to require_relative in base gem
+
 ## [0.0.7] - 2022-04-27
 
 - Trying to fix things

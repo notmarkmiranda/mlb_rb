@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require "./lib/mlb_rb/version"
-require "./lib/mlb_rb/games"
+require_relative "mlb_rb/version"
+require_relative "mlb_rb/games"
 
 module MlbRb
   class << self
