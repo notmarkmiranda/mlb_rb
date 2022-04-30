@@ -1,6 +1,6 @@
-require "./lib/mlb_rb/errors"
-require "./lib/mlb_rb/client"
-require "./lib/mlb_rb/game"
+require_relative "errors"
+require_relative "client"
+require_relative "game"
 
 module MlbRb
   class Games

@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.0.9] - 2022-04-30
+
+- Change require to require_relative everywhere else
+
 ## [0.0.8] - 2022-04-27
 
 - Change require to require_relative in base gem
